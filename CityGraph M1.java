@@ -4,6 +4,7 @@ import java.util.Set;
 import java.util.List;
 
 class CityGraph {
+    
     private Map<String, Location> adjacencyList;
     private int nextId;
 
@@ -64,3 +65,4 @@ class CityGraph {
         System.out.println("--------------------------------------");
     }
 }
+
