@@ -57,7 +57,7 @@ class CityGraph {
             String roads = String.join(", ", locationObj.roads);
             System.out.println("[" + locationName + "] is connected to: [" + roads + "]");
         }
-        System.out.println("--------------------------------------");
+        System.out.println("-------------------------------------");
     }
 }
     
